@@ -6,10 +6,11 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-
-<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -34,102 +35,222 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button fx:id="clear" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="CL">
+                  <Button fx:id="clear" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="CL">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="startbrack" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="(" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="eight" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="seven" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="7" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="four" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="five" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="one" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="two" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="point" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="." GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="zero" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="closebrack" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text=")" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="div" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #00EAFB;" text="/" GridPane.columnIndex="3">
                      <font>
                         <Font name="Sylfaen" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="braket" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="()" GridPane.columnIndex="1">
+                  <Button fx:id="nine" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <font>
                         <Font name="Sylfaen" size="27.0" />
                      </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
                   </Button>
-                  <Button fx:id="eight" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="seven" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="7" GridPane.rowIndex="1">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="four" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="4" GridPane.rowIndex="2">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="five" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="one" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="1" GridPane.rowIndex="3">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="two" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="piusmin" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="+/-" GridPane.rowIndex="4">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="zero" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="percentage" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="\%" GridPane.columnIndex="2">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="div" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="/" GridPane.columnIndex="3">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="nine" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="into" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button fx:id="into" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #00EAFB;" text="X" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font name="Sylfaen" size="22.0" />
                      </font>
                   </Button>
-                  <Button fx:id="six" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="six" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="mines" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #00EAFB;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <font>
                         <Font name="Sylfaen" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="mines" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Button fx:id="three" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Sylfaen" size="27.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="plus" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #00EAFB;" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <font>
                         <Font name="Sylfaen" size="27.0" />
                      </font>
                   </Button>
-                  <Button fx:id="three" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <Button fx:id="percentage" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #3F3E3A;" text="\%" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <font>
                         <Font name="Sylfaen" size="27.0" />
                      </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.2824427476366057" startX="1.0">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
                   </Button>
-                  <Button fx:id="plus" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="point" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="4">
-                     <font>
-                        <Font name="Sylfaen" size="27.0" />
-                     </font>
-                  </Button>
-                  <Button fx:id="equal" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <Button fx:id="equal" mnemonicParsing="false" onAction="#handalbuttonaction" prefHeight="64.0" prefWidth="150.0" style="-fx-background-color: #00EAFB;" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <font>
                         <Font name="Sylfaen" size="27.0" />
                      </font>
